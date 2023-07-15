@@ -1,0 +1,65 @@
+body {
+        background-image: url("image/books-1845614_640.jpg");
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+ 
+.panel {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: navy;
+}
+ 
+.question {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+
+.options {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+.options:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+ 
+button {
+    margin-right: 75px;
+    margin-top: 8%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4f98c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+     color: azure;
+     background-color: rgb(27, 27, 141);
+    border-radius: 30%;
+}
+ 
+#score {
+    font-size: 30px;
+    color: darkslategray;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
